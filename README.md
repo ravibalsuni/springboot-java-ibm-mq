@@ -1,6 +1,8 @@
-# Springboot Java IBM MQ 9.2.2.0 repo  (This demo was implemented on ubuntu 18.04)
+# Springboot Java IBM MQ 9.2.2.0 repo  
+(This demo was implemented on ubuntu 18.04)
 
 This includes:
+
 		1) IBM MQ 9.2.2.0 Installation
 
 		2) MyMQSender Springboot Application 

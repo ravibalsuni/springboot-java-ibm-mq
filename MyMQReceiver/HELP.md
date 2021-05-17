@@ -5,12 +5,19 @@ This Springboot application receives/listens messages from local queue - "DEV.QU
 # Following Properties are used in application.properties file (please modify as per your requirement)
 
 hostname=ubuntu-pc
+
 port=1414
+
 queueManager=QM1
+
 channel=DEV.APP.SVRCONN
+
 userId=app
+
 password=app
+
 myQueue=DEV.QUEUE.1
+
 
 # Please note MQ objects were created using instruction mentioned in Step 1 of below README.md file :
 

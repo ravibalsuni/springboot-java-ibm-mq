@@ -2,17 +2,22 @@
 
 This includes:
 		1) IBM MQ 9.2.2.0 Installation
+
 		2) MyMQSender Springboot Application 
+
 		3) MyMQReceiver Springboot Application (which listens MQ msgs forever) 
+
 
 #Step 1 - Installing IBM MQ 9.2.2.0
 
 	1.1) download binaries - 'mqadv_dev922_ubuntu_x86-64.tar.gz' from - https://ibm.biz/mq-advanced-ubuntu
 
-	1.2) Unzip the folder you downloaded. The contents extract to a folder named “MQServer”. e.g. /home/ravi/Downloads/MQServer
+	1.2) Unzip the folder you downloaded. The contents extract to a folder named “MQServer”. 
+             e.g. /home/ravi/Downloads/MQServer
 
-	1.3) run following commands on ubuntu terminal for creating a user and group for running MQ client applications 
-	   (user 'app' will be used in our Java application for sending and receiving mq messages, remember the password while creating user)
+	1.3) run following commands on ubuntu terminal for creating a user and group for running MQ client applications.
+	   (user 'app' will be used in our Java application for sending and receiving mq messages. 
+            Remember the password while creating user)
 
 		sudo addgroup mqclient
 		sudo adduser app

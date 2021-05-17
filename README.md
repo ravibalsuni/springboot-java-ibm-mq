@@ -10,7 +10,9 @@ This includes:
 		3) MyMQReceiver Springboot Application (which listens MQ msgs forever) 
 
 
-#Step 1 - Installing IBM MQ 9.2.2.0
+# Step 1  
+
+	Installing IBM MQ 9.2.2.0
 
 	1.1) download binaries - 'mqadv_dev922_ubuntu_x86-64.tar.gz' from:
 		 https://ibm.biz/mq-advanced-ubuntu	or
@@ -66,11 +68,15 @@ This includes:
 
 
 
-#Step 2 - Refer MyMQSender Springboot Project to send few messages on queue created via above command at 1.10)
-	  We use following local queue - "DEV.QUEUE.1" to send messages
+# Step 2 
+
+        Refer MyMQSender Springboot Project to send few messages on queue created via above command at 1.10)
+	We use following local queue - "DEV.QUEUE.1" to send messages
 	  
 
-#Step 3 - Refer MyMQReceiver Springboot Project to receive/listen those messages from same queue
-	  We use same local queue - "DEV.QUEUE.1" to listen messages from, which will sent at step 2
+# Step 3  
+
+	Refer MyMQReceiver Springboot Project to receive/listen those messages from same queue
+	We use same local queue - "DEV.QUEUE.1" to listen messages from, which will sent at step 2
 
 

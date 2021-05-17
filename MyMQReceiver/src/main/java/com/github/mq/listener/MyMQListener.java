@@ -38,7 +38,7 @@ public class MyMQListener implements JmsListenerConfigurer{
 	@Value("${myQueue}")
 	private String myQueue;
 	
-	public MyMQListner() {
+	public MyMQListener() {
 		logger.info("MyMQReceiver() invoked!!");
 	}
 	

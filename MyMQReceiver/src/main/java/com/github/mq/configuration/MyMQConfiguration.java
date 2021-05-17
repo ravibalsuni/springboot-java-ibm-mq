@@ -61,7 +61,7 @@ public class MyMQConfiguration {
 			defaultJmsListenerContainerFactory.setConcurrency("10-20");
 			configurer.configure(defaultJmsListenerContainerFactory, cf);
 		}catch (Exception e) {
-			// TODO: handle exception
+			logger.info(e.getMessage());
 		}
 				
 		return defaultJmsListenerContainerFactory;

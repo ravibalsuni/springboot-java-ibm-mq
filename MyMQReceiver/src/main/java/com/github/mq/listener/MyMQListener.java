@@ -1,4 +1,4 @@
-package com.github.mq.listner;
+package com.github.mq.listener;
 
 import javax.jms.BytesMessage;
 import javax.jms.JMSException;
@@ -26,8 +26,8 @@ import com.ibm.jms.JMSBytesMessage;
 import com.ibm.jms.JMSTextMessage;
 
 @Service
-public class MyMQListner implements JmsListenerConfigurer{
-	private static final Logger logger = LoggerFactory.getLogger(MyMQListner.class);
+public class MyMQListener implements JmsListenerConfigurer{
+	private static final Logger logger = LoggerFactory.getLogger(MyMQListener.class);
 	
 	@Autowired(required = true)
 	@Qualifier("jmsFactory")
@@ -44,7 +44,6 @@ public class MyMQListner implements JmsListenerConfigurer{
 	
 	@Override
 	public void configureJmsListeners(JmsListenerEndpointRegistrar registrar) {
-		// TODO Auto-generated method stub
 		this.jmsListenerEndpointRegistrar = registrar;
 	}
 	
@@ -60,7 +59,6 @@ public class MyMQListner implements JmsListenerConfigurer{
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW, timeout = 1000)
 	private MessageListener listenMessage() {
-		// TODO Auto-generated method stub
 		return message ->{
 			logMessage(message);
 			try {
@@ -69,7 +67,6 @@ public class MyMQListner implements JmsListenerConfigurer{
 				try {
 					message.acknowledge();
 				} catch (JMSException e1) {
-					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
 				e.printStackTrace();
@@ -94,17 +91,16 @@ public class MyMQListner implements JmsListenerConfigurer{
 				int textLength = (int)messageByte.getBodyLength();
 				byte[] textBytes = new byte[textLength];
 				messageByte.readBytes(textBytes,textLength);
-				//String charSet = message.getStringProperty(JMS_IB)
 				srcMessage = new String(textBytes);
 			}
 			else {
 				
 			}
 		} catch (Exception e) {
-			// TODO: handle exception
+					
 		}
 		
-		System.out.println(srcMessage);
+		logger.info(srcMessage);
 	}
 	
 }

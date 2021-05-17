@@ -1,4 +1,4 @@
-# Listening Messages via MQ Receiver / MQ Listner
+# Listening Messages via MQ Receiver / MQ Listener
 
 This Springboot application receives/listens messages from local queue - "DEV.QUEUE.1" forever.
 

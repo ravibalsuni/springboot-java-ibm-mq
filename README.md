@@ -65,8 +65,10 @@ This includes:
 	      setmqaut -m QM1 -n DEV.** -t queue -g mqclient +put +get +browse +inq
 
 
+
 #Step 2 - Refer MyMQSender Springboot Project to send few messages on queue created via above command at 1.10)
 	  We use following local queue - "DEV.QUEUE.1" to send messages
+	  
 
 #Step 3 - Refer MyMQReceiver Springboot Project to receive/listen those messages from same queue
 	  We use same local queue - "DEV.QUEUE.1" to listen messages from, which will sent at step 2

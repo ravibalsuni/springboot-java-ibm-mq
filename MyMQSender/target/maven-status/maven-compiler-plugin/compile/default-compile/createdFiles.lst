@@ -1,0 +1,3 @@
+com/github/mq/connection/MyMQConnection.class
+com/github/mq/sender/MyMQSender.class
+com/github/mq/MyMqSenderApplication.class

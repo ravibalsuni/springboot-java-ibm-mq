@@ -68,9 +68,9 @@ It includes:
 
 
 
-# Step 2 
-
-        Refer MyMQSender Springboot Project to send few messages on queue created via above command at 1.10)
+# Step 2
+	
+	Refer MyMQSender Springboot Project to send few messages on queue created via above command at 1.10)
 	We use following local queue - "DEV.QUEUE.1" to send messages
 	  
 

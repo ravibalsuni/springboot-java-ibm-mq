@@ -16,7 +16,7 @@ myQueue=DEV.QUEUE.1
 
 https://github.com/ravibalsuni/springboot-java-ibm-mq/blob/master/README.md
 
-# Import Maven Project in Eclipse, Right Click on Eclipse Project MyMqReceiver, Run As Maven install
+# Import Maven Project in Eclipse, Right Click on Eclipse Project MyMQReceiver, Run As Maven install
 
 # Richt Click MyMqSenderApplication.java, Run As -> Java Application
 

@@ -77,6 +77,6 @@ It includes:
 # Step 3  
 
 	Refer MyMQReceiver Springboot Project to receive/listen those messages from same queue
-	We use same local queue - "DEV.QUEUE.1" to listen messages from, which will sent at step 2
+	We use same local queue - "DEV.QUEUE.1" to listen messages from, which was sent at step 2
 
 

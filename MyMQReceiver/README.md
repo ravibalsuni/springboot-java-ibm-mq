@@ -1,5 +1,6 @@
 # 1
    Listening Messages via MQ Receiver / MQ Listener
+   
 This Springboot application receives/listens messages from local queue - "DEV.QUEUE.1" forever.
 
 # 2
@@ -153,7 +154,8 @@ https://github.com/ravibalsuni/springboot-java-ibm-mq/blob/master/README.md
 2021-05-17 23:23:04.129  INFO 2143 --- [enerContainer-8] com.github.mq.listener.MyMQListener      : Message 97
 
 
-# terminate the application otherwise it will be running forever :p
+# 7
+   terminate the application otherwise it will be running forever :p
 
 kill -9 2143
 

@@ -1,8 +1,9 @@
-# Listening Messages via MQ Receiver / MQ Listener
-
+# 1
+   Listening Messages via MQ Receiver / MQ Listener
 This Springboot application receives/listens messages from local queue - "DEV.QUEUE.1" forever.
 
-# Following Properties are used in application.properties file (please modify as per your requirement)
+# 2
+   Following Properties are used in application.properties file (please modify as per your requirement)
 
 hostname=ubuntu-pc
 
@@ -19,15 +20,19 @@ password=app
 myQueue=DEV.QUEUE.1
 
 
-# Please note MQ objects were created using instruction mentioned in Step 1 of below README.md file :
+# 3
+   Please note MQ objects were created using instruction mentioned in Step 1 of below README.md file :
 
 https://github.com/ravibalsuni/springboot-java-ibm-mq/blob/master/README.md
 
-# Import Maven Project in Eclipse, Right Click on Eclipse Project MyMQReceiver, Run As Maven install
+# 4
+   Import Maven Project in Eclipse, Right Click on Eclipse Project MyMQReceiver, Run As Maven install
 
-# Richt Click MyMqSenderApplication.java, Run As -> Java Application
+# 5 
+    Right Click MyMqReceiverApplication.java, Run As -> Java Application
 
-# sample logs on eclipse console
+# 6
+    sample logs on eclipse console
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \

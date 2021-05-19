@@ -1,8 +1,9 @@
-# Sending Messages via MQ Sender
-
+# 1
+	Sending Messages via MQ Sender
 This Springboot application sends messages on local queue - "DEV.QUEUE.1"
 
-# Following Properties are used in application.properties file (please modify as per your requirement)
+# 2
+	Following Properties are used in application.properties file (please modify as per your requirement)
 
 hostname=ubuntu-pc
 
@@ -19,15 +20,20 @@ password=app
 myQueue=DEV.QUEUE.1
 
 
-# Please note MQ objects were created using instruction mentioned in Step 1 of below README.md file :
+# 3
+	Please note MQ objects were created using instruction mentioned in Step 1 of below README.md file :
 
 https://github.com/ravibalsuni/springboot-java-ibm-mq/blob/master/README.md
 
-# Import Maven Project in Eclipse, Right Click on Eclipse Project MyMQSender, Run As Maven install
+# 4
+    Import Maven Project in Eclipse, Right Click on Eclipse Project MyMQSender, Run As Maven install
 
-# Right Click MyMqSenderApplication.java, Run As -> Java Application
+# 5 
+    Right Click MyMqSenderApplication.java, Run As -> Java Application
 
-# sample logs on eclipse console
+# 6
+    sample logs on eclipse console
+
 
 23:05:28.450 [main] INFO com.github.mq.MyMqSenderApplication - My MQ Sender App started..
 
